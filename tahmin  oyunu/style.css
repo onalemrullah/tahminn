@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin: 20px;
+   font-family: 'Kablammo', cursive;
+   font-size: 25px;
+}
+#s{
+    height: 30px;
+    width: 130px;
+    margin: 15px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+#s1{
+    margin: 10px;
+    height: 20px;
+    width: 130px;
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
